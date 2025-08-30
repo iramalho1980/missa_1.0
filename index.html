@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta da Missa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">pasta da missa</h1>
+        <div class="search-section">
+            <label for="search">pesquisar</label>
+            <input type="text" id="search" class="search-input">
+        </div>
+        
+        <div class="canticos-section">
+            <h2 class="section-title">cânticos</h2>
+            <div class="song-list">
+                <div class="song-item" data-image="upload/1-ENTRADA-CREIO.jpg">
+                    <span>entrada - eu creio em DEUS</span>
+                </div>
+                <div class="song-item" data-image="upload/2-ATOPENITENCIAL-SENHORQUEVIESTESSALVAR.jpg">
+                    <span>ato penitencial - senhor que viestes salvar</span>
+                </div>
+                <div class="song-item" data-image="upload/3-GLORIA-GLORIAADEUSNOSALTOSCEUS.jpg">
+                    <span>gloria - gloria a deus nos altos ceus</span>
+                </div>
+                <div class="song-item" data-image="upload/3.1-SALMO-SALMO67.jpg">
+                    <span>salmo - salmo 67</span>
+                </div>
+                <div class="song-item" data-image="upload/5-OFERTÓRIO-BENDITOLOUVADOSEJA.jpg">
+                    <span>ofertório - bendito louvado seja</span>
+                </div>
+                <div class="song-item" data-image="upload/6-COMUNHAO-PROCUROABRIGONOSCORAÇÕES.jpg">
+                    <span>comunhão - procuro abrigo nos corações</span>
+                </div>
+                <div class="song-item" data-image="upload/7-AÇÃODEGRAÇAS-SEOUVIRESAVOZDOVENTO.jpg">
+                    <span>ação de graças - se ouvires a voz do vento</span>
+                </div>
+                <div class="song-item" data-image="upload/8-FINAL-SEGURANASMAOSDEDEUS.jpg">
+                    <span>final - segura na mão de deus</span>
+                </div>
+                <div class="song-item" data-image="upload/6.1-Amem[D+].pdf">
+                    <span>amem - aaamen</span>
+                </div>
+                <div class="song-item" data-image="upload/cordeiro_de_deus.pdf">
+                    <span>cordeiro - cordeiro de deus</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal/Popup para exibir as imagens -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Cântico">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
